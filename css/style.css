@@ -120,7 +120,10 @@ img {
 }
 
 /*-----------------------------HERO-SECTION----------------------------*/
-
+.hero-section {
+  padding-top: 128px;
+  outline: 1px solid teal;
+}
 .showrell-item {
   font-style: normal;
   font-weight: 700;
@@ -167,19 +170,23 @@ img {
   height: 52px;
   color: white;
 }
-
-.container-hero {
+.hero-image {
+  display: block;
+}
+.con-hero {
   display: flex;
 }
-
-.header-list-stat {
+.hero-list {
+  display: flex;
+}
+.hero-list-stat {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 .stat-item {
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+  /* align-items: center; */
 }
 
 .stat-itam:last-child {
