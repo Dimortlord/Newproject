@@ -96,7 +96,7 @@ img {
 .contact-item:last-child {
   margin-right: 0;
 }
-.contact-button {
+.btn-large {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -153,7 +153,7 @@ img {
 }
 .hero-item {
 }
-.hero-btn1 {
+.btn-solid {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -165,7 +165,7 @@ img {
   justify-content: center;
 }
 
-.hero-btn2 {
+.btn-large {
   background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
   border-radius: 4px;
   width: 200px;
