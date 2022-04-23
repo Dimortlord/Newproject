@@ -1,4 +1,4 @@
-/* *,
+*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -12,6 +12,10 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+a {
+  display: block;
+  text-decoration: none;
 }
 h1,
 h2,
@@ -30,6 +34,13 @@ img {
   max-width: 100%;
   height: auto;
 }
+:root {
+  --main-text-color: #1e212c;
+  --secondary-text-color: #424551;
+  ---button-color-background: #ff3f3a;
+  --full-button-color: #ffff;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -37,4 +48,69 @@ img {
   padding-right: 15px;
   width: 1200px;
   outline: 2px solid tomato;
-} */
+}
+
+/* =========================HEADER======================== */
+.header-box {
+  display: flex;
+  align-items: center;
+}
+.logo-header {
+  margin-right: 60px;
+}
+.logo-image {
+}
+.site-nav {
+  display: flex;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+  display: block;
+  padding: 13px 0 13px 0;
+  margin-right: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--secondary-text-color);
+}
+.nav-item:last-child {
+  margin-right: 0;
+}
+.contact-header {
+  display: flex;
+  align-items: center;
+  margin-left: 225px;
+}
+.contact-item {
+  display: block;
+  margin-right: 36px;
+}
+.contact-item:last-child {
+  margin-right: 0;
+}
+.contact-button {
+  display: block;
+  align-items: center;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 3.25;
+  border: 0;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+  color: var(--full-button-color);
+  background-color: var(---button-color-background);
+}
+
+.contact-login {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--secondary-text-color);
+}
