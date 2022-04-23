@@ -121,8 +121,6 @@ img {
 
 /*-----------------------------HERO-SECTION----------------------------*/
 
-.hero-play-showreel {
-}
 .showrell-item {
   font-style: normal;
   font-weight: 700;
@@ -142,20 +140,19 @@ img {
   font-weight: 900;
   font-size: 64px;
   line-height: 1.29;
-  display: flex;
-  align-items: center;
   letter-spacing: 1px;
   color: var(--main-text-color);
+  margin-bottom: 60px;
 }
 .hero-list {
 }
 .hero-item {
+  margin-right: 24px;
 }
-.btn-solid {
+.btn-hero1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 40px;
   width: 148px;
   height: 52px;
   color: var(---button-color-background);
@@ -163,7 +160,7 @@ img {
   justify-content: center;
 }
 
-.btn-large {
+.btn-hero2 {
   background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
   border-radius: 4px;
   width: 200px;
@@ -171,15 +168,35 @@ img {
   color: white;
 }
 
-.hero-pic {
+.container-hero {
+  display: flex;
 }
+
 .header-list-stat {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .stat-item {
+  display: flex;
+  align-items: center;
 }
+
+.stat-itam:last-child {
+  margin-right: 0px;
+}
+
 .stat-title {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 1, 30;
+  margin-right: 12px;
 }
 .stat-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 60;
+  margin-right: 140px;
 }
 
 /*-----------------------------ABOUT_US----------------------------*/
