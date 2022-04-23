@@ -37,7 +37,11 @@ img {
 :root {
   --main-text-color: #1e212c;
   --secondary-text-color: #424551;
-  ---button-color-background: #ff3f3a;
+  ---button-color-background: linear-gradient(
+    55.95deg,
+    #ff3f3a 0%,
+    #f75e05 100%
+  );
   --full-button-color: #ffff;
 }
 
@@ -105,8 +109,8 @@ img {
   border: 0;
   border-radius: 4px;
   letter-spacing: 0.5px;
-  color: var(--full-button-color);
-  background-color: var(---button-color-background);
+  background: var(---button-color-background);
+  border-radius: 4px;
 }
 
 .contact-login {
@@ -159,6 +163,14 @@ img {
   color: var(---button-color-background);
   border-radius: 4px;
   justify-content: center;
+}
+
+.hero-btn2 {
+  background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+  border-radius: 4px;
+  width: 200px;
+  height: 52px;
+  color: white;
 }
 
 .hero-pic {
