@@ -238,26 +238,28 @@ img {
   color: var(--secondary-text-color);
 } */
 .bulleted-item {
+  position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  padding-left: 32px;
   margin-bottom: 0;
-}
 
-.bulleted-text {
-  display: inline-block;
   margin-bottom: 12px;
   font-size: 16px;
   line-height: 1.62;
   color: var(--secondary-text-color);
 }
-.bulleted-text::before {
+.bulleted-item::before {
   content: "";
-  display: inline-block;
+  position: absolute;
+  display: block;
   width: 16px;
   height: 16px;
+  left: 0;
+
   background-image: url(../icons/check.svg);
 }
+
 .btn-bulleted {
   background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
   border-radius: 4px;
